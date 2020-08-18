@@ -5,74 +5,58 @@
 
     <changeSet author="sika" id="20200818">
         <modifyDataType columnName="CREATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="member"/>
+                        tableName="MEMBER"/>
         <modifyDataType columnName="UPDATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="member"/>
+                        tableName="MEMBER"/>
 
         <modifyDataType columnName="CREATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="race"/>
+                        tableName="RACE"/>
         <modifyDataType columnName="UPDATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="race"/>
+                        tableName="RACE"/>
         <modifyDataType columnName="START_DATE"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="race"/>
+                        tableName="RACE"/>
         <modifyDataType columnName="END_DATE"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="race"/>
+                        tableName="RACE"/>
 
         <modifyDataType columnName="CREATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="rider"/>
+                        tableName="RIDER"/>
         <modifyDataType columnName="UPDATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="rider"/>
+                        tableName="RIDER"/>
 
         <modifyDataType columnName="CREATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="mission"/>
+                        tableName="MISSION"/>
         <modifyDataType columnName="UPDATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="mission"/>
+                        tableName="MISSION"/>
         <modifyDataType columnName="START_TIME"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="mission"/>
+                        tableName="MISSION"/>
         <modifyDataType columnName="END_TIME"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="mission"/>
+                        tableName="MISSION"/>
 
         <modifyDataType columnName="CREATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="certification"/>
+                        tableName="CERTIFICATION"/>
         <modifyDataType columnName="UPDATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="certification"/>
+                        tableName="CERTIFICATION"/>
 
         <modifyDataType columnName="CREATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="report"/>
+                        tableName="REPORT"/>
         <modifyDataType columnName="UPDATED_AT"
-                        schemaName="PUBLIC"
                         newDataType="DATETIME"
-                        tableName="report"/>
+                        tableName="REPORT"/>
     </changeSet>
 
 </databaseChangeLog>
